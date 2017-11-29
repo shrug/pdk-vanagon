@@ -4,7 +4,7 @@ packaging_url: 'git://github.com/puppetlabs/packaging.git --branch=1.0.x'
 packaging_repo: 'packaging'
 # foss_platforms will be shipped to the nightly repos
 # foss_platforms:
-pe_platforms:
+foss_platforms:
   - el-6-x86_64
   - el-7-x86_64
   - osx-10.11-x86_64
