@@ -10,8 +10,9 @@ def vanagon_location_for(place)
   end
 end
 
+gem 'artifactory'
 gem 'vanagon', *vanagon_location_for(ENV['VANAGON_LOCATION'] || '0.14.1')
-gem 'packaging', '~> 0.6', :git => 'https://github.com/shrug/packaging.git', :branch => 'remote_sign_rpms'
+gem 'packaging', :git => 'https://github.com/shrug/packaging.git', :branch => 'remote_sign_rpms'
 gem 'rake', '~> 12.0'
 
 #gem 'rubocop', "~> 0.34.2"
